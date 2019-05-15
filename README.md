@@ -4,6 +4,17 @@ This is the [WCAI workshop](https://events.wharton.upenn.edu/wcai-conference/age
 
 ## Requirements
 
+### Clone Project
+First we want to have the project available on your local machine:
+```bash
+git clone https://github.com/wcai-ea/wcai-workshop.git wcai-workshop
+```
+Next you want to step into the folder it created
+```bash
+cd wcai-workshop
+```
+
+
 ### Setup Conda Environment
 For ease of use install Anaconda to create an enviornment to contain all the required packages that we will use and activate it.
 ```bash
@@ -56,5 +67,9 @@ python -m ipykernel install --user --name wcai --display-name "Python (wcai_36)"
 
 
 ### Start Jupyter
-Let's start Jupyter and open the notebook in `notebooks/WCAI Workshop.ipynb`. 
+Let's start Jupyter:
+```bash
+jupyter notebook
+```
+Open the notebook in `notebooks/WCAI Workshop.ipynb`. 
 Make sure that we are using the kernal for our Conda environemnt `Python (wcai_36)`
